@@ -3,11 +3,11 @@
     box-shadow: 2px 2px 5px 1px #6796B6;
 }
 
-a.nav-link {
+.navUl li .navLink { 
     color: white;
 }
 .text-name{
-    color: orange;
+    color: #f4a835;
 }
 img .icono-clan{
     width:80px; 
