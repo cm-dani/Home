@@ -3,7 +3,7 @@
     box-shadow: 2px 2px 5px 1px #6796B6;
 }
 
-.navbar-clan .nav .nav-item .nav-link {
+a.nav-link {
     color: white;
 }
 .text-name{
