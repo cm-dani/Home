@@ -9,8 +9,9 @@
 .text-name{
     color: #f4a835;
 }
-
-img.icono-clan{
-    width:80px; 
-    height: auto;
+.navbar-fixed-top {
+    height: 40px;
+}
+.navbar-brand img {
+    height: 40px;
 }
