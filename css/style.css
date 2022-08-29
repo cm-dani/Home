@@ -319,8 +319,8 @@ a.signbutton:hover i::after{
 
 #recruiter::before {
   content: "";
-  width: 900px;
-  height: 695px;
+  width: 90%;
+  height: 100%;
   position: absolute;
   background-color: orange;
   z-index: -1;
