@@ -181,14 +181,14 @@ ul li a{
 }
 
 /*home*/
-
+@media (min-width: 900px){
 #home {
   background-image: url(../images/home.jpg);
   background-position: right 30px;
   background-size: cover;
   padding-top: 5rem;
   
-}
+}}
 
 .text-home {
   color: #f7b148;
