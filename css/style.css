@@ -185,7 +185,7 @@ div.homepadding{
   padding: 7% 10% 10%;
   line-height: 1;
   background-position: 50% 100%;
-  background-size: auto 37%, cover, 100%, 100%, 100%;
+  background-size: auto 30%, cover, 100%, 100%, 100%;
   background-position: bottom, center, center, center, center;
   background-repeat: no-repeat;
   height: auto;
@@ -195,7 +195,7 @@ div.homepadding{
   
 .letrahome{
   
-  font-size: 0.008em;
+  font-size: 0.009vw;
 }
 
 
@@ -217,11 +217,11 @@ div .centarboton{
   background-color: #f7b148;
   color: white;
   border-color: #f7b148;
-  padding: 10px 20px;
+  padding: 5px 5px;
   border-radius: 10px;
   border-width: 2px;
   font-weight: 500;
-  font-size:25px;
+  font-size:25PX;
 }
 
 .btn-home:hover {
