@@ -178,7 +178,7 @@ ul li a {
   }
 }
 
-  @media (max-width: 999px){
+  @media (max-width: 998px){
     div.homeresize2{
       display:none;
   }
@@ -187,7 +187,7 @@ div.homepadding{
   margin:5em;
 }
 
-@media (min-width: 999px){
+@media (min-width: 998px){
 @media (max-height: 1000px){
 #home {
   background-image: url(../images/home.jpg);
@@ -238,7 +238,7 @@ div.homepadding{
 #recruiter::before {
   content: "";
   width: 92%;
-  height: 101%;
+  height: 100%;
   position: absolute;
   background-color: orange;
   z-index: -1;
