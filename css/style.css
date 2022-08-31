@@ -172,13 +172,33 @@ ul li a {
 }
 
 /*home*/
-@media (min-width: 900px){
+@media (min-width: 999px){
+  div.homeresize{
+    
+    display:none;
+  }
+}
+
+@media (max-width: 1000px){
+  div.homeresize2{
+    display:none;
+
+  }
+}
+
+div.homepadding{
+  margin:5em;
+}
+
+@media (min-width: 999px){
+@media (max-height: 1000px){
 #home {
   background-image: url(../images/home.jpg);
   background-position: right 30px;
   background-size: cover;
   padding-top: 5rem;
-}}
+}}}
+
 
 .text-home {
   color: #f7b148;
@@ -211,9 +231,12 @@ ul li a {
 }
 
 /* recruiter */
+
+
+@media (max-height: 1000px){
 #recruiter {
   position: relative;
-}
+}}
 
 #recruiter::before {
   content: "";
