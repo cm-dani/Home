@@ -173,21 +173,18 @@ ul li a {
 
 /*home*/
 @media (min-width: 999px){
-  @media (min-height: 999px){
-    div.homeresize{
-      display:none;
-    }
-  }
-}
-
-@media (max-width: 1000px){
   @media (max-height: 1000px){
+  div.homeresize{
+    
+    display:none;
+  }
+}}
+
+  @media (max-width: 1000px){
     div.homeresize2{
       display:none;
-    }
   }
 }
-
 div.homepadding{
   margin:5em;
 }
