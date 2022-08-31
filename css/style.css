@@ -172,47 +172,56 @@ ul li a {
 }
 
 /*home*/
-@media (min-width: 999px){
-  div.homeresize{
-    display:none;
-  }
-}
 
-  @media (max-width: 998px){
-    div.homeresize2{
-      display:none;
-  }
-}
+
 div.homepadding{
-  margin:5em;
+  padding:70em;
 }
 
-@media (min-width: 998px){
-@media (max-height: 1000px){
 #home {
-  background-image: url(../images/home.jpg);
-  background-position: right 30px;
-  background-size: cover;
-  padding-top: 5rem;
-}}}
+  
+  background-image: url(../images/home.gif);
+  background-color: #EFEFEF;
+  padding: 7% 10% 10%;
+  line-height: 1;
+  background-position: 50% 100%;
+  background-size: auto 37%, cover, 100%, 100%, 100%;
+  background-position: bottom, center, center, center, center;
+  background-repeat: no-repeat;
+  height: auto;
+  min-height: 98vh;
+
+}
+  
+.letrahome{
+  
+  font-size: 0.008em;
+}
 
 
 .text-home {
   color: #f7b148;
 }
 
-.btn2 {
-  padding: 10px 20px;
-  border-radius: 10px;
-  border-width: 2px;
-  font-weight: 500;
+
+div .centarboton{
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
 }
+
 
 .btn-home,
 .btn-home:focus {
   background-color: #f7b148;
   color: white;
   border-color: #f7b148;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-width: 2px;
+  font-weight: 500;
+  font-size:25px;
 }
 
 .btn-home:hover {
@@ -221,11 +230,6 @@ div.homepadding{
   border-color: #f7b148;
 }
 
-.homer {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
 
 /* recruiter */
 
@@ -234,7 +238,7 @@ div.homepadding{
 #recruiter {
   position: relative;
 }}
-
+@media (max-height: 1000px){
 #recruiter::before {
   content: "";
   width: 92%;
@@ -249,6 +253,25 @@ div.homepadding{
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+}
+
+.btn2 {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-width: 2px;
+  background-color: #f7b148;
+  color: white;
+  border-color: #f7b148;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-width: 2px;
+}
+.btn2:hover {
+  background-color: white;
+  color: #f7b148;
+  border-color: #f7b148;
+}
+
 
 #recruiter h6 {
   color: orange;
