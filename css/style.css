@@ -105,6 +105,7 @@ a.btn:hover {
   
 }
 
+
 .paddinghome{
   padding-top:8vh;
 }
@@ -394,6 +395,11 @@ ul li a {
   cursor: pointer;
 }
 
+/*Tratamiento de datos*/
+
+.marginall{
+  margin-top: 10em;
+}
 
 /* FOOTER 404 // SIMPLE */
 .footersimple {
@@ -460,6 +466,4 @@ ul li a {
   align-self: center;
   text-justify: center;
   padding-left: 10%;
-  
-  
 }
