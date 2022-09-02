@@ -91,7 +91,7 @@ a.btn:hover {
   background-position: bottom, center, center, center, center;
   background-repeat: no-repeat;
   height: auto;
-  min-height: 88vh;
+  min-height: 110vh;
 
 }
   
@@ -106,7 +106,7 @@ a.btn:hover {
 }
 
 .paddinghome{
-  padding-top:6.6vh;
+  padding-top:8vh;
 }
 
 
