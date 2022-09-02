@@ -205,7 +205,7 @@ div.homepadding{
 }
 
 
-div .centarboton{
+div .centrarboton{
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -242,16 +242,14 @@ div .centarboton{
 @media (max-height: 1000px){
 #recruiter::before {
   content: "";
-  width: 92%;
+  width: 50%;
   height: 100%;
   position: absolute;
   background-color: orange;
   z-index: -1;
-  border-bottom-right-radius: 50px;
+  border-bottom-right-radius: 1000px;
   border-top-right-radius: 1000px;
   border-left: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 }
@@ -303,6 +301,9 @@ div .centarboton{
 
 /*join now*/
 
+.letrajButton{
+  font-size: 25px;
+}
 
 div.join {
   margin-top: 15px;
