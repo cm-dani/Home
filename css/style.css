@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -41,6 +50,7 @@ ul.nav a.nav-link {
 .navbar {
   background-color: #00093c;
   box-shadow: 2px 2px 5px 1px #6796b6;
+  display:flex;
   min-height: 80px;
   align-items: center;
   justify-content: space-between;
@@ -181,6 +191,7 @@ a.btn:hover {
   background-repeat: no-repeat;
   height: auto;
   min-height: 110vh;
+  
 
 }
   
