@@ -41,12 +41,12 @@ ul.nav a.nav-link {
 .navbar {
   background-color: #00093c;
   box-shadow: 2px 2px 5px 1px #6796b6;
-  display: flex;
   min-height: 80px;
   align-items: center;
   justify-content: space-between;
+  border-bottom-right-radius: 10em;
   padding: 10px 47px 10px 8px;
-  border-bottom-right-radius: 125px;
+  
 }
 .navbar-brand {
   display: flex;
@@ -76,6 +76,95 @@ a.btn:hover {
   background-color: orange;
 }
 
+/*language switcher*/
+
+
+.language-switcher{
+  width:250px;
+  position:fixed;
+  height: 100%;
+  background-color: white;
+  right:-250px;
+  top:0;
+  z-index:10;
+  padding:30px;
+  box-shadow:rgb(0, 0, 0);
+  transition: right 0.3s ease;
+}
+.language-switcher.open{
+  right:0;
+}
+.language-switcher-toggler{
+  height:40px;
+  width:40px;
+  position:absolute;
+  top:28%;
+  left:-40px;
+  background-color:orange;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:8px 0 0 8px;
+  cursor:pointer;
+}
+
+.language-switcher h3{
+  font-size: 18px;
+  text-transform: capitalize;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(207, 206, 206);
+  padding: 0 0 10px;
+}
+
+.language-switcher-item{
+  padding:10px 0;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(207, 206, 206);
+}
+
+.theme-colors button{
+  height: 30px;
+  width:30px;
+  border: none;
+  border-radius:50%;
+  vertical-align: middle;
+  border-radius:50%;
+  padding:0;
+  position:relative;
+}
+
+.theme-colors button::before{
+  content:"\f00c";
+  font-family:'Font Awesome 6 Free';
+  font-weight: 900;
+  font-size: 20px;
+  color:black;
+  transition:all 0.3s ease;
+  position:absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  opacity:0;
+ 
+}
+
+.theme-colors button.active::before{
+  opacity:1;
+}
+.theme-colors .es{
+  background-size: cover;
+  background-image:url(../images/spanish.png);
+  
+
+}
+
+.theme-colors .en{ 
+  background-size: cover;
+  background-image:url(../images/english.png);
+}
 
 /*home*/
 
