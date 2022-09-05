@@ -5,6 +5,7 @@ html,body
   width:100%;
   overflow-x:hidden;
 
+
 }
 * {
   margin: 0;
@@ -32,7 +33,6 @@ ul.nav a.nav-link {
 
 
 .header {
-
   display: flex;
   min-height: 80px;
   width: 100%;
@@ -177,10 +177,9 @@ a.btn:hover {
 
 
 #home {
-
   background-image: url(../images/homes.gif);
   background-color: #EFEFEF;
-  padding: 7% 10% 10%;
+  padding: 6rem 10% 10%;
   line-height: 1;
   background-position: 50% 100%;
   background-size: auto 30%, cover, 100%, 100%, 100%;
