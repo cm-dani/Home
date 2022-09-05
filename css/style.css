@@ -564,3 +564,90 @@ ul li a {
   text-justify: center;
   padding-left: 10%;
 }
+
+
+
+.card-img-top{
+  width: auto;
+  height: auto;
+}
+
+.card {
+  border: 0;
+  border-radius: 0;
+  color: black;
+  box-shadow: 0px 0px 5px 5px rgb(0 0 0 / 5%);
+  padding: 1em 0;
+  border-bottom-right-radius: 4em;
+  border-top-left-radius: 4em;
+  background: linear-gradient(to left, white 50%, #192775 50%);
+  background-size: 200%;
+  background-position: right;
+  transition: background-position 0.5s ease-out;
+}
+.card-icon {
+  margin: 0 1em;
+}
+.card-icon i{
+  font-size: 3em;
+}
+.card:hover {
+  background-position: left;
+  color: white;
+}
+
+
+.faq {
+  padding-top: 80px;
+}
+
+.faq .accordion-item {
+  border: 0;
+  margin-bottom: 10px;
+}
+
+.faq .accordion-collapse {
+  border: 0;
+}
+
+.faq .accordion-button {
+  padding: 15px 30px 20px 60px;
+  font-weight: 600;
+  border: 0;
+  font-size: 18px;
+  color: var(--color-default);
+  text-align: left;
+  background: rgba(122, 168, 237, 0.03);
+  border-radius: 5px;
+}
+
+.faq .accordion-button:focus {
+  box-shadow: none;
+}
+
+.faq .accordion-button:not(.collapsed) {
+  color: orange;
+  border-bottom: 0;
+  box-shadow: none;
+}
+
+.faq .fa-circle-question {
+  position: absolute;
+  top: 14px;
+  left: 25px;
+  font-size: 20px;
+  color: orange;
+}
+
+.faq .accordion-button:after {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.faq .accordion-body {
+  padding: 0 30px 25px 60px;
+  border: 0;
+  background: rgba(14, 29, 52, 0.03);
+  border-radius: 5px;
+}
