@@ -318,14 +318,14 @@ div.join {
   background: #444;
   color: #fff;
   text-decoration: none;
-  
   padding: 8% 15%;
   transition: 0.5s;
   border-radius: 10px;
+
 }
 
 a.joinbutton:hover {
-  letter-spacing: 0.25em;
+  letter-spacing: 0.01em;
   border-radius: 10px;
   background: var(--clr);
   color: var(--clr);
