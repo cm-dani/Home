@@ -257,7 +257,7 @@ div .centrarboton{
 }
 
 .btn2 {
-  padding: 10px 20px;
+
   border-radius: 10px;
   border-width: 2px;
   background-color: #f7b148;
@@ -301,7 +301,31 @@ div .centrarboton{
   object-position: bottom;
 }
 
-/*join now*/
+
+/*Empleado*/
+
+.empleado {
+  background: url("/images/blue-bg.png") center center no-repeat;
+  padding:15rem 0 15rem 0;
+}
+
+.empleado .empleados span {
+  font-size: 48px;
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.empleado .empleados p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*empleado*/
+
 
 .letrajButton{
   font-size: 1.6rem;
@@ -309,16 +333,17 @@ div .centrarboton{
 }
 
 div.join {
-  margin-top: 15px;
+
   text-align: center;
-  padding: 15px;
+  padding: 0;
 }
 .joinbutton {
+ 
   position: relative;
-  background: #444;
+  background: rgb(255, 255, 255);
   color: #fff;
   text-decoration: none;
-  padding: 8% 15%;
+  padding: 2% 5%;
   transition: 0.5s;
   border-radius: 10px;
 
@@ -332,11 +357,12 @@ a.joinbutton:hover {
   box-shadow: 0 0 35px var(--clr);
 }
 a.joinbutton::before {
+  
   content: "";
   position: absolute;
   border-radius: 10px;
   inset: 2px;
-  background: orange;
+  background: rgb(95, 123, 235);
 }
 a.joinbutton span {
   position: relative;
@@ -360,7 +386,7 @@ a.joinbutton i::before {
   width: 10px;
   height: 5px;
   border: 2px solid #fff;
-  background: orange;
+  background: rgb(95, 123, 235);
   transform: translateX(-50%);
   transition: 0.5s;
 }
@@ -380,7 +406,7 @@ a.joinbutton i::after {
   width: 10px;
   height: 5px;
   border: 2px solid #fff;
-  background: orange;
+  background: rgb(95, 123, 235);
   transform: translateX(-50%);
   transition: 0.5s;
 }
@@ -390,6 +416,32 @@ a.joinbutton:hover i::after {
   border-radius: 10px;
   left: 80%;
 }
+
+
+.empleado ul {
+  padding: 0;
+  list-style-position: outside;
+}
+
+.empleado ul li {
+  padding-bottom: 10px;
+  
+  list-style-position: inside;
+  text-indent: -2em;
+  padding-left: 2em;
+
+}
+
+.empleado ul i {
+  list-style-position: outside;
+  font-size: 20px;
+  padding-right: 10px;
+  text-align: justify;
+  color: rgb(152, 185, 228);
+  text-indent: 10%;
+}
+
+
 /*WALLPAPER*/
 
 .wallpaperv2{
