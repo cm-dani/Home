@@ -45,7 +45,7 @@ ul.nav a.nav-link {
 }
 
 .navbar {
-  background-color: #0B00A3;
+  background-color: rgb(61, 81, 164);
   box-shadow: 2px 2px 5px 1px #6796b6;
   display:flex;
   min-height: 80px;
