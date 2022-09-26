@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a26d91b6e0.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS -->
+    <link href="../assets/css/Styles Index.css" rel="stylesheet">
+    <link href="../assets/css/Styles Reclutador.css" rel="stylesheet">
+
+    <!--icono-->
+    <link rel="shortcut icon" type="icon" href="../assets/images/icon.png">
+
+    <title>Cl@n reclutadores</title>
+
+  </head>
+ <!-- HEADER -->
+  <header>
+    <!-- BARRA -->
+
+    
+    <nav class="navbar navbar-clan navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <div class="logo">
+          <a class="text-clan navbar-brand" href="#">
+            <img src="../assets/images/clan.png" alt="" width="30" height="24" class="icono-clan d-inline-block align-text-top">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Reclutador.html">Reclutadores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Empresas.html">Empresas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Empleados.html">Busca empleo</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-signin btn-outline-light btn-rounded" href="login.php">Iniciar Sesión</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+<!-- END HEADER -->
+  <body style="background-color: #EFEFEF;">
+
+    <!--language switcher-->
+
+   
+    <div class="language-switcher js-language-switcher">
+      <br><br><br><br>
+        <div class="language-switcher-toggler js-language-switcher-toggler">
+      
+          <i class="fas fa-cog"></i>
+        </div>
+        <h3>Cambia de idioma</h3>
+        <div class="language-switcher-item">
+          <p class="mb-2">Elige un idioma</p>
+          <!--theme colors-->
+          <div class="theme-colors flags" id="flags">
+         <div data-language ="es"><button type="button" data-js-theme-color="es" class="js-theme-color-item es" ></button>  Español</div>
+         <p><div data-language ="en"><button type="button" data-js-theme-color="en" class="js-theme-color-item en active" datalanguage ="en"></button>Inglés</div></p>
+          </div>
+        </div>
+      </div>
+   <!--END language switcher-->
+   <!--RECRUITER-->
+   <section id="recruiters">
+    <div class="container p-5">
+    <div class="letrarecruiter row">
+      
+      <div class="col-md-4 column align-content-center my-auto">
+        <img src="../assets/images/hrecruiter.gif" class="responsive2 img-fluid" alt="" data-aos="fade-left">
+      </div>
+      <div class="col-md-8 column ui-sortable text-left paddingrecruiter" data-aos="fade-up" data-aos-delay="100">
+          <h1 class="display-4 fw-bold " data-aos="fade-up">¿Eres <span class="text-recruiter">reclutador
+            </span> y quieres tener ingresos adicionales y más?</h1>
+          <h4>Únete a nuestra comunidad y recluta para compañías de todo LATAM y USA, desde cualquier lugar del mundo...</h4> 
+      </div>  
+    </div>
+  </div>
+  </section>
+  <!--END RECRUITER-->
+  
+<!-- ======= beneficios Section ======= -->
+<section id="beneficios" class="beneficios section-bg"> 
+  <div class="container" data-aos="fade-up">
+
+
+      <h1 class="text-center text-blue"><strong>Al unirte y ser aceptado obtendrás:</strong></h1>
+    <br>
+    <div class="container">
+    <div class="row justify-content-evenly gy-4 gx-1 counters">
+  
+      <div class="col-lg-2 col-md-12">
+        <div class="icon-box iconbox-blue">
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+            </svg>
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <p class="text-md-center">Capacitación</p>
+        </div>
+      </div>
+  
+      <div class="col-lg-2 col-md-6">
+        <div class="icon-box iconbox-orange ">
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+            </svg>
+            <i class="fa-solid fa-people-group"></i>
+          </div>
+          <p class="text-md-center">Comunidad de apoyo</p>
+        </div>
+      </div>
+  
+      <div class="col-lg-2 col-md-6">
+        <div class="icon-box iconbox-pink">
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+            </svg>
+            <i class="fa-solid fa-heart-circle-check"></i>
+          </div>
+          <p class="text-md-center">Puntos</p>
+        </div>
+      </div>
+  
+      <div class="col-lg-2 col-md-6">
+
+        <div class="icon-box iconbox-teal">
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
+            </svg>
+            <i class="fa-solid fa-coins"></i>
+          </div>
+          <p class="text-md-center">Comisiones</p>
+
+        </div>
+  
+      </div>
+  
+      <div class="col-lg-2 col-md-6">
+        <div class="icon-box iconbox-red container-fluid">
+          <div class="icon">
+            <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+              <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
+            </svg>
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <p class="text-md-center">Completamente remoto</p>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+</div>
+  </section>
+<!-- End beneficios Section -->
+                                    
+<!--PROCESO RECRUITERS-->
+
+<section id="proceso-recruiters" class="proceso-recruiters m-4">
+  <div class="container">
+    <div class="row align-items-center py-4" data-aos="flip-left">
+      <div class="col-md-4 column ui-sortable join" style>
+        <img src="../assets/images/pr.png" class="responsive2 img-fluid" alt="" data-aos="fade-left">
+      </div>
+      <div class="col-md-8 column ui-sortable join" style>
+        <h1 class="display-7 text-start texto-pr"><strong>¡Conoce nuestro proceso!</strong></h1>
+        <br>
+          <h6 class="text-start">
+            <ul>
+              <h4><li><i class="fa-solid fa-1"></i>Te registras</li></h4>
+              <h4><li><i class="fa-solid fa-2"></i>Eres aceptado/a en Cl@n</li></h4>
+              <h4><li><i class="fa-solid fa-3"></i>Recibes posiciones (Ya estás listo)</li></h4>
+              <h4><li><i class="fa-solid fa-4"></i>Recibes recompensa</li></h4>       
+            </ul>
+          </h6>  
+       
+       </div>
+      
+    </div>
+  </div>
+</section>
+
+    <!--END PROCESO RECRUITERS-->
+
+    <section id="perfiles" class="perfiles m-4">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h1 class="text-center text-blue"><strong>¿Qué perfiles reclutarás?</strong></h2>
+              <h3>
+                <br>
+                <p>En cl@n nos ajustamos a tu experiencia y tenemos clientes en LATAM y USA que requieren especialmente
+                  perfiles de:</p>
+              </h3>
+            </div>
+          </div>
+          <div class="col-lg-1 paddingnotshow"></div>
+          <div class="col-lg align-self-center paddingnotshow paddingshow2">
+  
+            <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+              <i class="fa-solid fa-circle-dollar-to-slot"></i>
+              <h4>Finanzas</h4>
+            </div>
+            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
+              <i class="fa-solid fa-microchip"></i>
+              <h4>Tecnología</h4>
+            </div>
+            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
+              <i class="fa-solid fa-people-roof"></i>
+              <h4>RRHH</h4>
+            </div>
+          </div>
+          <div class="col-lg paddingshow3 paddingnotshow align-self-center">
+            <img src="../assets/images/telework.png" alt="" class=" perfilesimage img-fluid">
+          </div>
+          <div class="col-lg paddingshow paddingnotshow align-self-center">
+            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="400">
+              <i class="fa-solid fa-diagram-next"></i>
+              <h4>Ventas</h4>
+            </div>
+            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="400">
+              <i class="fa-solid fa-ranking-star"></i>
+              <h4>Márketing</h4>
+            </div>
+            <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="400">
+              <i class="fa-solid fa-object-group"></i>
+              <h4>Diseño</h4>
+            </div>
+          </div>
+          <div class="col-lg-1 paddingnotshow"></div>
+
+        </div>
+      </div>
+    </section>
+                                           
+<!--PROPOSITO-->
+<section id="proposito" class="m-4">
+  <div class="container">
+  <div class="row align-items-center aos-init aos-animate  ">
+    <div class="col-md-8 column ui-sortable " data-aos="fade-up" data-aos-delay="100">
+        <h2 class="display-5 fw-bold " data-aos="fade-up"><span class="text-recruiter">Nuestro
+          </span> propósito</h2>
+        <h4>Crecer como Cl@ners, como familia, como equipo globalizando y democratizando el talento Latam; con el
+          fin de aportar al Crecimiento económico con empleos decentes para todos y mejorar los estándares de
+          calidad vida en nuestros paÍses Latinoamericanos.
+          </h4> 
+    </div>  
+    <div class="col-md-4 column ui-sortable">
+      <img src="../assets/images/clanfamily.png" class="responsive2 img-fluid aos-init aos-animate" alt="" data-aos="fade-left">
+    </div>
+      
+      
+  </div>  
+  </div>
+</div>
+</section>
+<!--END PROPOSITO-->
+
+
+    <!--UNETE AHORA-->
+
+<section id="unete-ahora" class="unete-ahora m-4">
+  <div class="container">
+
+
+    
+      <h1 class="pb-3 text-blue text-center"><strong>Te capacitamos y tú enseñas</strong></h1>
+      <h4>
+        <p class="descrip text-center mb-2">En Cl@n, encontrarás una comunidad donde puedes aprender diferentes herramientas de búsqueda
+          adaptadas a la globalización laboral, retroalimentación constante, crecimiento y reconocimiento dentro de
+          la comunidad y además más tendrás la oportunidad de ser un mentor para ayudar a otros a conseguir su
+          trabajo ideal, en nuestro marketplace de empleo para que compartas tu conocimiento y tengas ingresos en
+          USD.</p>
+          <br>
+      </h4>
+
+  
+    <div class="row gy-4">
+
+      <div class="col-lg-3 col-md-6 service-item d-flex" data-aos="fade-up">
+        <div class="icon flex-shrink-0"><i class="fa-regular fa-clock"></i></div>
+        <div>
+          <h4 class="title">Recompensa promedio por vacante $850 USD</h4>
+        </div>
+      </div>
+      
+
+      <div class="col-lg-3 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="icon flex-shrink-0"><i class="fa-regular fa-clock"></i></div>
+        <div>
+          <h4 class="title">Recluta en tu tiempo libre</h4>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="icon flex-shrink-0"><i class="fa-solid fa-shoe-prints"></i></div>
+        <div>
+          <h4 class="title">Inicias en Lite y llegas a Master Cl@ner</h4>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="icon flex-shrink-0"><i class="fa-solid fa-tag"></i></div>
+        <div>
+          <h4 class="title">Membresía Gratis</h4>
+        </div>
+      </div>
+
+    </div>
+
+  <div class="col mb-5 text-center"> 
+    <a class="joinbutton joincenter" href="#"><span class="letrajButton">ÚNETE AHORA</span><i></i></a>
+  </div>
+
+  </div>
+</section>
+    <!--END UNETE AHORA-->
+                           
+
+    <!--FOOTER-->
+    <footer class="p-5">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-md-0 center1">
+          <h3>Legal</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="Tratamiento de datos.html" class="p-0 footertext"> Política de protección de datos</a></li>
+            <li class="nav-item mb-2"><a href="#faq" class="p-0 footertext">Preguntas frecuentes</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 center1">
+          <h3>Empresa</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2 "><a href="404.html" class="p-0 footertext">Acerca de nosotros</a></li>
+            <li class="nav-item mb-2"><a href="404.html" class=" p-0 footertext">Ayuda</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4 mb-md-0 text-center">
+          <ul class="nav flex-column">
+            <img src="../assets/images/clan.png" class="logo">
+            <div class="social-icons">
+              <a href="https://www.instagram.com/clanrecruiters_oficial/?igshid=YmMyMTA2M2Y%3D&utm_source=BenchmarkEmail&utm_campaign=LINK_conexi%C3%B3n_Clan_Recruiters&utm_medium=email"
+                target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.facebook.com/Clan-Recruiters-110287758440900" target="_blank"><i
+                  class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://clt1467760.bmetrack.com/c/l?u=E379606&e=14D4E53&c=166570&t=1&l=8891EAF7&email=gVGtJP0aeomP194ObL8Dl1meH1VOHAzWbF9iWV5kTFU%3D&seq=2"
+                target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://wa.link/hx7vk9" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+          </ul>
+          <p class="copyright">© 2022 Clan</p>  
+        </div>
+      </div>
+    </footer>
+     <!--js-->
+     
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script src="../assets/js/Script recruiters.js"></script>
+  </body>
+
+</html>

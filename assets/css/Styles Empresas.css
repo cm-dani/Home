@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+html,body
+{
+  width:100%;
+  overflow-x:hidden;
+  background-color: #EFEFEF;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+
+.beneficiosEmpresa .icon-box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 40px 0;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+  }
+  
+  .size{
+    min-height: 25rem;
+
+  }
+  .size1{
+    min-height: 20rem;
+
+  }
+
+  .beneficiosEmpresa .icon-box:hover {
+    transform: translateY(-5px);
+    border-color: #FB8500;
+    
+  }
+  
+  .beneficiosEmpresa .icon i {
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 15px;
+    color: #FB8500;
+  }
+  
+  .beneficiosEmpresa .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+  }
+  
+  .beneficiosEmpresa .title a {
+    text-decoration: none;
+    color: #111;
+  }
+
+  
+  .beneficiosEmpresa .description {
+    font-size: 1.2rem;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+
+
+
+
+  /*--------------------------------------------------------------
+  # conocemos
+  --------------------------------------------------------------*/
+
+#conocemos {
+
+  background-color: #EFEFEF;
+  padding: 6rem 0% 2rem 0;
+
+}
+  
+.letraconocemose{
+  font-size: 1em;
+}
+
+
+.text-conocemos {
+  color: #FB8500;
+  
+}
+
+
+.paddingconocemos{
+  padding-top:8vh;
+  font-size: 3em;
+}
+
+
+ /*--------------------------------------------------------------
+  # cómo lo hacemos
+  --------------------------------------------------------------*/
+  
+  .comolohacemos-empresas ul li {
+    padding-bottom: 10px;
+    
+    list-style-position: inside;
+    text-indent: -2em;
+    padding-left: 2em;
+    text-align: left;
+  
+  }
+  
+  .comolohacemos-empresas ul i {
+    list-style-position: outside;
+    font-size: 17px;
+    padding-right: 10px;
+    text-align: justify;
+    color: #0B00A3;
+    text-indent: 10%;
+  }
+  .texto-ce{
+    color: #fb8500;
+  }
+

@@ -1,0 +1,237 @@
+
+/*--------------------------------------------------------------
+# LANDING PAGE RECRUITERS
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# beneficios
+--------------------------------------------------------------*/
+
+
+
+#beneficios{
+    padding: 0rem 5rem 1rem 5rem;
+  }
+  .beneficios .icon-box {
+    text-align: center!important;
+    padding: 50px 20px 80px 20px!important;
+    height: 15rem!important;
+    transition: all ease-in-out 0.3s!important;
+    background: #fff;
+  }
+  
+  .beneficios .icon-box .icon {
+    margin: 0 auto!important;
+    width: 100px!important;
+    height: 100px!important;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+    transition: ease-in-out 0.3s!important;
+    position: relative!important;
+  }
+  
+  .beneficios .icon-box .icon i {
+    font-size: 4rem!important;
+    transition: 0.5s!important;
+    position: relative!important;
+  }
+  
+  .beneficios .icon-box .icon svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .beneficios .icon-box .icon svg path {
+    transition: 0.5s;
+    fill: #f5f5f5;
+  }
+  
+  
+  .beneficios .icon-box p {
+    line-height: 24px;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+  }
+  
+  .beneficios .icon-box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .beneficios .iconbox-blue i {
+    color: #47aeff;
+  }
+  
+  .beneficios .iconbox-blue:hover .icon i {
+    color: #fff;
+  }
+  
+  .beneficios .iconbox-blue:hover .icon path {
+    fill: #47aeff;
+  }
+  
+  .beneficios .iconbox-orange i {
+    color: #ffa76e;
+  }
+  
+  .beneficios .iconbox-orange:hover .icon i {
+    color: #fff;
+  }
+  
+  .beneficios .iconbox-orange:hover .icon path {
+    fill: #ffa76e;
+  }
+  
+  .beneficios .iconbox-pink i {
+    color: #e80368;
+  }
+  
+  .beneficios .iconbox-pink:hover .icon i {
+    color: #fff;
+  }
+  
+  .beneficios .iconbox-pink:hover .icon path {
+    fill: #e80368;
+  }
+  
+  .beneficios .iconbox-red i {
+    color: #ff5828;
+  }
+  
+  .beneficios .iconbox-red:hover .icon i {
+    color: #fff;
+  }
+  
+  .beneficios .iconbox-red:hover .icon path {
+    fill: #ff5828;
+  }
+  
+  .beneficios .iconbox-teal i {
+    color: #11dbcf;
+  }
+  
+  .beneficios .iconbox-teal:hover .icon i {
+    color: #fff;
+  }
+  
+  .beneficios .iconbox-teal:hover .icon path {
+    fill: #11dbcf;
+  }
+  
+  /*--------------------------------------------------------------
+  # perfiles
+  --------------------------------------------------------------*/
+ 
+  
+  
+  .perfiles .icon-box h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 60px 0px 0px 80px;
+  }
+  
+  .perfiles .icon-box i {
+    font-size: 48px;
+    float: left;
+    color: #0B00A3;
+  }
+  
+  @media (max-width: 1199px){
+    .perfilesimage {
+      display:none; 
+    }
+    .paddingnotshow{
+      padding:0px 0px 0px 0px;
+    }
+    }
+  
+    @media (min-width: 1199px){
+  
+      .paddingshow3{
+    
+        padding-top: 3.5rem;
+      }
+      }
+  
+  /*--------------------------------------------------------------
+  # recruiter
+  --------------------------------------------------------------*/
+  
+  #recruiters {
+    background-color: #EFEFEF;
+    padding: 7rem 0rem 0rem 0;
+  }
+    
+  .letrarecruiter{
+    font-size: 1rem;
+  }
+  .text-recruiter {
+    color: #FB8500;
+    
+  }
+
+  
+  /*--------------------------------------------------------------
+  # proceso recruit
+  --------------------------------------------------------------*/
+  
+  .proceso-recruiters ul li {
+    padding-bottom: 10px;
+    
+    list-style-position: inside;
+    text-indent: -2em;
+    padding-left: 2em;
+  
+  }
+  
+  .proceso-recruiters ul i {
+    list-style-position: outside;
+    font-size: 17px;
+    padding-right: 10px;
+    text-align: justify;
+    color: #FB8500;
+    text-indent: 10%;
+  }
+  .texto-pr{
+    color: #FB8500;
+  }
+  
+  /*--------------------------------------------------------------
+  # Unete ahora
+  --------------------------------------------------------------*/
+  .unete-ahora .service-item {
+    position: relative;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .unete-ahora .service-item .icon {
+    margin-right: 20px;
+  }
+  
+  .unete-ahora .service-item .icon i {
+    color: #001f8d;
+    font-size: 48px;
+    transition: 0.3s;
+  }
+  
+  .unete-ahora .service-item .title {
+    font-weight: 200;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    color: black;
+    transition: 0.3s;
+  }
+  
+  .unete-ahora .service-item:hover .icon i {
+    color:#FB8500;
+  }
+  
+  .unete-ahora .section-title h4{
+    font-weight: 400;
+    font-size: 1.4rem;
+  }
+  

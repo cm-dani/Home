@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background: rgb(255,255,255);
+    background: linear-gradient(60deg, rgba(255,255,255,1) 0%, rgba(149,154,170,1) 100%);
+    background-repeat:none;
+    min-height: 100vh
+}
+
+main {
+    width: 100%;
+    padding: 4rem;
+
+}
+
+.contenedor__todo {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.caja__trasera {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background: rgb(39, 123, 192);
+    background: radial-gradient(
+        circle,
+        rgba(39, 123, 192, 1) 73%,
+        rgba(33, 105, 166, 1) 100%
+    );
+    border-radius: 20px;
+    padding-left: 2rem;
+}
+
+.caja__trasera div {
+    margin: 5.4rem 1.8rem;
+    color: white;
+    transition: all 500ms;
+}
+
+.caja__trasera div p,
+.caja__trasera button {
+    margin-top: 0.5rem;
+}
+
+.caja__trasera div h3 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.caja__trasera div p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/* /Forms/ */
+
+.contenedor__login-register {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -220px;
+    left: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.094);
+
+    /* /La transicion va despues del codigo JS/ */
+    transition: left 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.contenedor__login-register form {
+    width: 100%;
+    padding: 50px 20px;
+    background: white;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.094);
+}
+
+.contenedor__login-register form h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f09819;
+}
+
+.contenedor__login-register form input {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background: #f2f2f2;
+    font-size: 16px;
+    outline: none;
+}
+
+.formulario__login {
+    opacity: 1;
+    display: block;
+}
+
+.formulario__register {
+    display: none;
+}
+
+@media screen and (max-width: 850px) {
+    main {
+        margin-top: 1rem;
+    }
+    .caja__trasera {
+        max-width: 350px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+    }
+    .caja__trasera div {
+        margin: 0px;
+        position: absolute;
+    }
+    /* /Forms/ */
+    .contenedor__login-register {
+        top: -1px;
+        left: -5px;
+        margin: auto;
+    }
+    .contenedor__login-register form {
+        position: relative;
+    }
+}
+
+.contenedor__login-register form button {
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(
+        45deg,
+        #ff512f 0%,
+        #f09819 51%,
+        #ff512f 100%
+    );
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-decoration: none;
+}
+
+.contenedor__login-register form button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(
+        45deg,
+        #ff512f 0%,
+        #f09819 51%,
+        #ff512f 100%
+    );
+}
+
+.contenedor__login-register form button:active {
+    transform: scale(0.95);
+}
+
+button {
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(
+        45deg,
+        rgb(61, 81, 164) 0%,
+        #19bef0 51%,
+        rgb(61, 81, 164) 100%
+    );
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-decoration: none;
+    border-color: white;
+    border-width: 0.01em;
+}
+
+button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(
+        45deg,
+        rgb(61, 81, 164) 0%,
+        #19bef0 51%,
+        rgb(61, 81, 164) 100%
+    );
+}
+
+button:active {
+    transform: scale(0.95);
+  }
+
+
+  a p i{
+    font-size: 30px;
+    line-height: 200;
+    margin-bottom: 0px;
+    color: #f09819;
+  }
+  
