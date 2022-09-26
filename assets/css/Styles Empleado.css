@@ -1,77 +1,99 @@
+/*--------------------------------------------------------------
+  # cómo lo hacemos
+  --------------------------------------------------------------*/
 
+#empleo-sonado {
+  background-color: #efefef;
+  padding: 5rem 0% 2rem 0;
+}
+.empleo-sonado ul li {
+  padding-bottom: 10px;
 
-#comolohacemos-empresas{
-    background-color: #EFEFEF;
-    padding: 8rem 0% 2rem 0;
+  list-style-position: inside;
+  text-indent: -2em;
+  padding-left: 1em;
+  text-align: left;
 }
 
+.empleo-sonado ul i {
+  list-style-position: outside;
+  font-size: 17px;
+  padding-right: 10px;
+  text-align: justify;
+  color: #0b00a3;
+  text-indent: 10%;
+}
+.texto-ce {
+  color: #fb8500;
+}
 
-@media (max-height: 1000px){
-    #conectar{
-      position: relative;
-    }}
-    @media (max-height: 1000px){
-    #conectar::before {
-      content: "";
-      width: 50%;
-      height: 100%;
-      position: absolute;
-      background-color:#0B00A3 !important;
-      border-bottom-right-radius: 1000px;
-      border-top-right-radius: 1000px;
-      border-left: 0;
-      box-sizing: border-box;
-    }
-    }
-    
-.text-blue{
-    color:#0B00A3;
+@media (max-height: 1000px) {
+  #conectar {
+    position: relative;
+  }
+}
+@media (max-height: 1000px) {
+  #conectar::before {
+    content: "";
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #0b00a3 !important;
+    border-bottom-right-radius: 1000px;
+    border-top-right-radius: 1000px;
+    border-left: 0;
+    box-sizing: border-box;
+  }
+}
+
+.text-blue {
+  color: #0b00a3;
 }
 
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
 .counts {
-    padding: 70px 0 60px;
-  }
-  
-  .counts .count-box {
-    display: flex;
-    align-items: center;
-    padding: 30px;
-    width: 100%;
-    background: #fff;
-    border-radius: 2em;
-    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  }
-  
-  .counts .count-box i {
-    font-size: 42px;
-    line-height: 0;
-    margin-right: 20px;
-    color: #4154f1;
-  }
-  
-  .counts .count-box span {
-    font-size: 36px;
-    display: block;
-    font-weight: 600;
-    color: #0b198f;
-  }
-  
-  .counts .count-box p {
-    padding: 0;
-    margin: 0;
-    font-family: "Nunito", sans-serif;
-    font-size: 14px;
-  }
+  padding: 70px 0 60px;
+}
 
-  p .purecounter::after{
-    content:'%';
-   }
-   a .purecounter::after{
-    content:' pago';
-   }
-   .purecounter::after{
-    content:' días';
-   }
+.counts .count-box {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+  background: #fff;
+  border-radius: 2em;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.counts .count-box i {
+  font-size: 42px;
+  line-height: 0;
+  margin-right: 20px;
+  color: #f19041;
+}
+
+.counts .count-box span {
+  font-size: 36px;
+  display: block;
+  font-weight: 600;
+  color: #fb8500;
+}
+
+.counts .count-box p {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+}
+
+p .purecounter::after {
+  content: "%";
+}
+a .purecounter::after {
+  content: " pago";
+}
+.purecounter::after {
+  content: " días";
+}
